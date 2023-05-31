@@ -2,7 +2,7 @@ import random
 
 
 def hangman():
-    word_list = ["python", "java", "hangman", "javascript", "ruby", "swift", "csharp",
+    word_list = ["python", "java", "javascript", "ruby", "swift", "csharp",
                  "flutter", "react", "angular", "vue", "django", "flask", "spring", "laravel"]
     random_word = random.choice(word_list)
     guessed_letters = []
