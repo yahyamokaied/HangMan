@@ -12,7 +12,8 @@ def hangman():
     print('_ ' * len(random_word))
 
     while attempts > 0:
-        guess = input("Please guess a letter: ").lower()
+        guess = input(
+            "Please guess a letter of (programming language):").lower()
 
         if len(guess) != 1:
             print("Please guess only one letter at a time.")
